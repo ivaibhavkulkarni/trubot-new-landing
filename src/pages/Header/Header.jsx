@@ -33,7 +33,7 @@ const Header = () => {
           <div className="flex items-center gap-4">
             {/* Appointment Button */}
             <a
-              className="hidden md:block rounded-full bg-gradient-to-r from-orange-400 to-black px-5 py-2.5 text-sm font-semibold text-white shadow-primary-glow transition-transform hover:scale-105"
+              className="hidden md:block rounded-full bg-gradient-to-r from-orange-400 to-yellow-400 px-5 py-2.5 text-sm font-semibold text-white shadow-primary-glow transition-transform hover:scale-105"
               href="#"
             >
               Book Appointment
@@ -75,7 +75,7 @@ const Header = () => {
               </a>
               <a
                 href="#"
-                className="block w-full text-center rounded-full bg-gradient-to-r from-orange-400 to-black px-5 py-2.5 text-sm text-white shadow-primary-glow hover:scale-105 transition-transform"
+                className="block w-full text-center rounded-full bg-gradient-to-r from-orange-400 to-yellow-400 px-5 py-2.5 text-sm text-white shadow-primary-glow hover:scale-105 transition-transform"
               >
                 Book Appointment
               </a>
